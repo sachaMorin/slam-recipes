@@ -66,3 +66,11 @@ python3 scripts/export_poses_to_gradslam.py --path $SEQUENCE_PATH --input_file p
 ```
 The only requirement of the script is `numpy`. The output of this script is the format expected by `gradslam`.
 
+# ORB-SLAM 3
+## Install
+Again, we need to install ORB-SLAM3 [from source](https://github.com/UZ-SLAMLab/ORB_SLAM3).
+
+**Before building**, make sure to replace `ORB_SLAM3/Examples/RGB-D/rgbd_tum.cc` with the one in this repository.
+
+[TO BE CONTINUED]
+
