@@ -20,7 +20,7 @@ Your sequence at `$SEQUENCE_PATH` should have the following structure:
 You should first install rtabmap [from source](https://github.com/introlab/rtabmap/wiki/Installation#if-ros-is-not-installed).
 You may be able to skip some dependencies if ROS is already installed.
 
-**Before building**, make sure to replace `rtabmap/tools/RgbdDataset/main.cpp` with the one in this repository. It
+**Before building**, make sure to replace `rtabmap/tools/RgbdDataset/main.cpp` with the file in this repository. It
 includes hardcoded intrinsics for an Azure Kinect camera. You may want to update it with custom intrinsics.
 
 After installing, you may need to run `sudo ldconfig`.
@@ -39,6 +39,7 @@ Now to visualize the point cloud and run additional loop closures:
 3. When prompted with the following panel, say 'Yes'
  
 ![Param panel](images/rtabmap_1.png)
+
 4. Then pick `Global map optimized`
  
 ![Global panel](images/rtabmap_2.png)
@@ -70,7 +71,7 @@ The only requirement of the script is `numpy`. The output of this script is the 
 ## Install
 Again, we need to install ORB-SLAM3 [from source](https://github.com/UZ-SLAMLab/ORB_SLAM3).
 
-**Before building**, make sure to replace `ORB_SLAM3/Examples/RGB-D/rgbd_tum.cc` with the one in this repository.
+**Before building**, make sure to replace `ORB_SLAM3/Examples/RGB-D/rgbd_tum.cc` with the file in this repository.
 
 [TO BE CONTINUED]
 
