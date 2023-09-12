@@ -31,7 +31,7 @@ Run
 ```shell
 rtabmap-rgbd_dataset --Rtabmap/CreateIntermediateNodes true --Mem/IntermediateNodeDataKept true --RGBD/LinearUpdate 0 --output $SEQUENCE_PATH $SEQUENCE_PATH
 ```
-to generate an `rtabmap.db` file in `$OUTPUT_PATH`.
+to generate an `rtabmap.db` file in `$SEQUENCE_PATH`.
 
 Now to visualize the point cloud and run additional loop closures:
 1. Launch the GUI by running `rtabmap`
